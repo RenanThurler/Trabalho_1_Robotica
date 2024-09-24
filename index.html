@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -109,25 +109,39 @@
 	
 				<section  data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
 					<h2>3. Aplicações e Tecnologias Atuais</h2>
-				</section data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
+				</section>
 					<section data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
-						<section>
+						<section data-background="examples/assets/casa-do-futuro.jpg"
+								data-background-position="center"
+								data-background-opacity="10%">
 							Interfaces que promovem a praticidade no lar
+						</section>
+						<section>
+							<div class="order">
+						
+								<ul>
+									<li>Interface de Voz</li>
+									<li>Interface Grafica</li>
+									<li>Interface Gestos e Visão</li>
+								</ul>
+								<img src="examples/assets/Robo-Auxiliar.jpeg" width="450px">
+							</div>
+						</section>
+						<section>
+							<video src="examples/assets/Robo-Video.mp4" height="700px"></video>
 						</section>
 						<section>
 							Interface de uso industrial
 						</section>
-						<section>Veículos autônomos e sistemas de transporte</section>
-						<section>Reconhecimento de voz e processamento de linguagem natural</section>
+						<section>
+							Veículos autônomos e sistemas de transporte
+						</section>
 
 						<section data-background="examples/assets/Capa-Tátil.jpeg"
 								data-background-position="center"
 								data-background-opacity="10%">
-
 							INTEFACES TÁTEIS/HÁPTICAS
-
 						</section>
-
 						<section data-background="examples\assets\Feedback-Tátil.jpg"
 									data-background-position="center"
 									data-background-opacity="10%">
@@ -137,7 +151,6 @@
 									<li>Feedback tátil</li>
 									<li>Feedback cinestésico</li>
 								</ul>
-
 
 						</section>
 
@@ -149,18 +162,57 @@
 										<li>Processamento do sistema</li>
 										<li>Geração de feedback</li>
 									</ol>
-									
 								</section>
-
+								
 									<section>
 										Aplicações das Interfaces Hápticas
+
 											<video data-autoplay
-											src="examples\assets\Davinci_Sistema.mp4">
-						
+											src="examples\assets\Davinci_Sistema.mp4" width="670px">
 											</video>
+											<br>
+										Medicina
+									</section>
+									
+									<section>
+										
+										<img src="examples/assets/Submarino.jpeg" >
+										Teleoperação
 									</section>
 
-						<section 	data-background="examples/assets/Capa-Interface-Imersiva.jpeg"
+
+									<section>
+										
+										<video data-autoplay
+											src="examples/assets/Simulador-voo.mp4"
+										></video>
+										
+										Simulação e Treinamento
+										<br>
+									</section>
+
+									<section>
+										
+										<img src="">
+										
+										Dispositivos de Assistência e Reabilitação
+										<br></br>
+									</section>
+
+
+									<section>
+										Exemplos de Dispositivos Hápticos:
+										<div class="Dispo-hapt">
+											<img src="examples/assets/luvas-daora.jpeg" width="360px">
+											<img src="examples/assets/mulhercombraço-metal.jpeg" width="360px">
+											<img src="examples/assets/velha-ginastica.jpeg" width="360px">
+
+										</div>
+
+
+									</section>
+
+						<section data-background="examples/assets/Capa-Interface-Imersiva.jpeg"
 									data-background-position="center"
 									data-background-opacity="10%">
 							INTERFACES IMERSIVAS
@@ -198,18 +250,13 @@
 								</section>
 
 								<section>
-									
 									<video data-autoplay
 											src="examples\assets\DCS Topgun Landing Experience www.rubix.com.hk.mp4"
 									></video>
 
-									
 								</section>
-
-						
 					</section>
 		
-	
 				<section  data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
 					<h2>4. Desafios e Considerações Éticas</h2>
 					<ul>
@@ -219,8 +266,6 @@
 						<li>Questões éticas na tomada de decisão autônoma</li>
 					</ul>
 				</section>
-	
-				
 	
 				<section  data-background-gradient="linear-gradient(to bottom, #190f16, #091518)">
 					<h2>5. O Futuro da Interação Humano-Robô</h2>
@@ -254,6 +299,7 @@
 				hash: true,
 				autoPlayMedia: true,
 				slideNumber: true, 
+			
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
